@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>サイトマップ - プロジェクトアーカイブ</title>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+  <button class="hamburger" aria-label="メニュー">
+    <span></span><span></span><span></span>
+  </button>
+
+  <div class="page-wrapper">
+    <aside class="sidebar" data-nav-level="docs"></aside>
+
+    <main class="main-content">
+      <header class="doc-header">
+        <div class="doc-category">DOCUMENT 04</div>
+        <h1 class="doc-title">サイトマップ</h1>
+        <div class="doc-meta">
+          <span><span class="material-symbols-outlined icon-sm">calendar_today</span> 作成日：2026-03-25</span>
+          <span><span class="material-symbols-outlined icon-sm">person</span> 作成者：工藤サフィア</span>
+          <span><span class="material-symbols-outlined icon-sm">push_pin</span> Ver 1.0</span>
+        </div>
+      </header>
+
+      <div class="doc-body">
+
+        <div class="external-link-box">
+          <div class="external-link-box-title">
+            <span class="material-symbols-outlined">link</span>
+            詳細ドキュメント（Google スプレッドシート）
+          </div>
+          <div class="external-link-box-desc">
+            このページは概要のみを記載しています。詳細なサイトマップは以下のリンクからご確認ください。
+          </div>
+          <div class="external-link-input">
+            <input type="text" placeholder="https://docs.google.com/spreadsheets/d/xxxxx" id="external-link-04">
+            <a href="#" class="link-btn"
+              onclick="window.open(document.getElementById('external-link-04').value || 'https://docs.google.com', '_blank'); return false;">
+              <span class="material-symbols-outlined">open_in_new</span>
+              開く
+            </a>
+          </div>
+        </div>
+
+        <div class="toc">
+          <div class="toc-title">目次</div>
+          <ol class="toc-list">
+            <li><a href="#sec1">サイト構造図</a></li>
+            <li><a href="#sec2">ページ一覧</a></li>
+            <li><a href="#sec3">ユーザーフロー</a></li>
+            <li><a href="#sec4">URL設計</a></li>
+          </ol>
+        </div>
+
+        <section class="section" id="sec1">
+          <h2 class="section-title"><span class="section-icon">1</span> サイト構造図</h2>
+
+          <div class="fill-block">
+            <div class="fill-label">Webサイト構造図 <span class="required">必須</span></div>
+            <div class="fill-hint">トップページから下層ページまでの階層構造をツリー形式で記載</div>
+            <div class="fill-content">
+              <p>トップページ<br>
+                ├─ About<br>
+                ├─ Workshop<br>
+                ├─ Process<br>
+                ├─ Plan & Pricing<br>
+                ├─ FAQ<br>
+                ├─ Access<br>
+                ├─ Contact<br>
+                └─ Footer<br>
+            </div>
+          </div>
+          <div class="fill-block">
+            <div class="fill-label">Webアプリケーション構造図 <span class="required">必須</span></div>
+            <div class="fill-hint">Spring Bootアプリケーションの画面構造をツリー形式で記載</div>
+            <div class="fill-content">
+              <p>予約機能・決済機能は現在未実装。
+                今後Spring Bootで実装予定。</p>
+            </div>
+          </div>
+
+        </section>
+
+        <section class="section" id="sec2">
+          <h2 class="section-title"><span class="section-icon">2</span> ページ一覧</h2>
+
+          <div class="fill-block">
+            <div class="fill-label">Webサイト ページ一覧 <span class="required">必須</span></div>
+            <table class="doc-table">
+              <thead>
+                <tr>
+                  <th>No.</th>
+                  <th>ページ名</th>
+                  <th>ページの目的</th>
+                  <th>主要コンテンツ</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="template-row">
+                <tr>
+                <tr>
+                  <td>1</td>
+                  <td>トップページ</td>
+                  <td>サービス全体の魅力を伝え、各セクションへ誘導する</td>
+                  <td>ヒーロー画像、サービス紹介、CTA</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>About</td>
+                  <td>ブランドやサービスの概要を伝える</td>
+                  <td>ブランド紹介、コンセプト説明</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Workshop</td>
+                  <td>体験内容を分かりやすく紹介する</td>
+                  <td>ワークショップ説明、魅力、特徴</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>Process</td>
+                  <td>香水作りの流れを説明する</td>
+                  <td>体験ステップ、利用の流れ</td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>Plan & Pricing</td>
+                  <td>料金プランや内容を案内する</td>
+                  <td>料金、プラン情報</td>
+                </tr>
+                <tr>
+                  <td>6</td>
+                  <td>FAQ</td>
+                  <td>よくある質問に答える</td>
+                  <td>質問と回答</td>
+                </tr>
+                <tr>
+                  <td>7</td>
+                  <td>Access</td>
+                  <td>アクセス情報を案内する</td>
+                  <td>地図、行き方</td>
+                </tr>
+                <tr>
+                  <td>8</td>
+                  <td>Contact</td>
+                  <td>問い合わせや予約導線を提供する</td>
+                  <td>問い合わせ方法、案内</td>
+                </tr>
+              </tbody>
+            </table>
+
+          </div>
+
+          <div class="fill-block">
+            <div class="fill-label">Webアプリ 画面一覧 <span class="required">必須</span></div>
+            <table class="doc-table">
+              <thead>
+                <tr>
+                  <th>No.</th>
+                  <th>画面名</th>
+                  <th>画面の目的</th>
+                  <th>主要機能</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>予約画面</td>
+                  <td>体験予約（未実装）</td>
+                  <td>日付選択・人数入力（予定）</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>決済画面</td>
+                  <td>支払い処理（未実装）</td>
+                  <td>決済機能（予定）</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>確認画面</td>
+                  <td>予約内容確認（未実装）</td>
+                  <td>入力内容確認（予定）</td>
+                </tr>
+              </tbody>
+            </table>
+
+          </div>
+        </section>
+
+        <section class="section" id="sec3">
+          <h2 class="section-title"><span class="section-icon">3</span> ユーザーフロー</h2>
+
+          <div class="fill-block">
+            <div class="fill-label">メインシナリオ <span class="required">必須</span></div>
+            <div class="fill-hint">ペルソナがサイトに訪問してから目的を達成するまでの動線（メインの行動パターン）</div>
+            <div class="fill-content">
+              <p>ユーザーはSNSや検索からサイトを知り、トップページに訪問する。
+                その後、AboutやWorkshopでサービス内容を理解し、Processで体験の流れを確認する。
+                最後にPlan & PricingやAccessを見て、Contactから問い合わせや予約を検討する。</p>
+            </div>
+          </div>
+          <div class="fill-block">
+            <div class="fill-label">サブシナリオ <span class="optional">任意</span></div>
+            <div class="fill-hint">その他の行動パターン（1〜2パターン）</div>
+            <div class="fill-content">
+              <p>ユーザーは最初に料金やアクセス情報を確認し、その後で体験内容やブランド紹介を見る場合がある。
+                また、興味を持った後にSNSへ戻り、他のサービスと比較することもある。</p>
+            </div>
+          </div>
+
+        </section>
+
+        <section class="section" id="sec4">
+          <h2 class="section-title"><span class="section-icon">4</span> URL設計</h2>
+
+          <div class="fill-block">
+            <div class="fill-label">URL一覧 <span class="required">必須</span></div>
+            <table class="doc-table">
+              <thead>
+                <tr>
+                  <th>URL</th>
+                  <th>HTTPメソッド</th>
+                  <th>画面/機能</th>
+                  <th>説明</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>/</td>
+                  <td>GET</td>
+                  <td>トップページ</td>
+                  <td>Webサイトのトップ</td>
+                </tr>
+                <tr>
+                  <td>/about</td>
+                  <td>GET</td>
+                  <td>Aboutページ</td>
+                  <td>ブランド紹介</td>
+                </tr>
+                <tr>
+                  <td>/workshop</td>
+                  <td>GET</td>
+                  <td>Workshopページ</td>
+                  <td>体験内容紹介</td>
+                </tr>
+                <tr>
+                  <td>/process</td>
+                  <td>GET</td>
+                  <td>Processページ</td>
+                  <td>体験の流れ</td>
+                </tr>
+                <tr>
+                  <td>/pricing</td>
+                  <td>GET</td>
+                  <td>料金ページ</td>
+                  <td>プランと料金</td>
+                </tr>
+                <tr>
+                  <td>/faq</td>
+                  <td>GET</td>
+                  <td>FAQページ</td>
+                  <td>よくある質問</td>
+                </tr>
+                <tr>
+                  <td>/access</td>
+                  <td>GET</td>
+                  <td>Accessページ</td>
+                  <td>アクセス情報</td>
+                </tr>
+                <tr>
+                  <td>/contact</td>
+                  <td>GET</td>
+                  <td>Contactページ</td>
+                  <td>問い合わせ</td>
+                </tr>
+                <tr>
+                  <td>/reservation</td>
+                  <td>GET</td>
+                  <td>予約画面</td>
+                  <td>未実装</td>
+                </tr>
+                <tr>
+                  <td>/reservation</td>
+                  <td>POST</td>
+                  <td>予約処理</td>
+                  <td>未実装</td>
+                </tr>
+                <tr>
+                  <td>/payment</td>
+                  <td>POST</td>
+                  <td>決済処理</td>
+                  <td>未実装</td>
+                </tr>
+              </tbody>
+            </table>
+
+          </div>
+        </section>
+
+      </div>
+    </main>
+  </div>
+
+  <script src="../js/main.js"></script>
+</body>
+
+</html>

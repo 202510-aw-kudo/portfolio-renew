@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ペルソナシート - プロジェクトアーカイブ</title>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+  <button class="hamburger" aria-label="メニュー">
+    <span></span><span></span><span></span>
+  </button>
+
+  <div class="page-wrapper">
+    <aside class="sidebar" data-nav-level="docs"></aside>
+
+    <main class="main-content">
+      <header class="doc-header">
+        <div class="doc-category">DOCUMENT 03</div>
+        <h1 class="doc-title">ペルソナシート</h1>
+        <div class="doc-meta">
+          <span><span class="material-symbols-outlined icon-sm">calendar_today</span> 作成日：2026-03-24</span>
+          <span><span class="material-symbols-outlined icon-sm">person</span> 作成者：工藤サフィア</span>
+          <span><span class="material-symbols-outlined icon-sm">push_pin</span> Ver 1.0</span>
+        </div>
+      </header>
+
+      <div class="doc-body">
+
+        <div class="external-link-box">
+          <div class="external-link-box-title">
+            <span class="material-symbols-outlined">link</span>
+            詳細ドキュメント（Google スプレッドシート）
+          </div>
+          <div class="external-link-box-desc">
+            このページは概要のみを記載しています。詳細なペルソナシートは以下のリンクからご確認ください。
+          </div>
+          <div class="external-link-input">
+            <input type="text" placeholder="https://docs.google.com/spreadsheets/d/xxxxx" id="external-link-03">
+            <a href="#" class="link-btn"
+              onclick="window.open(document.getElementById('external-link-03').value || 'https://docs.google.com', '_blank'); return false;">
+              <span class="material-symbols-outlined">open_in_new</span>
+              開く
+            </a>
+          </div>
+        </div>
+
+        <div class="toc">
+          <div class="toc-title">目次</div>
+          <ol class="toc-list">
+            <li><a href="#sec1">基本プロフィール</a></li>
+            <li><a href="#sec2">ライフスタイル</a></li>
+            <li><a href="#sec3">デジタル行動</a></li>
+            <li><a href="#sec4">課題とニーズ</a></li>
+            <li><a href="#sec5">カスタマージャーニーマップ</a></li>
+          </ol>
+        </div>
+
+
+        <section class="section" id="sec1">
+          <h2 class="section-title"><span class="section-icon">1</span> 基本プロフィール</h2>
+
+          <div class="fill-block">
+            <div class="fill-label">ペルソナ基本情報 <span class="required">必須</span></div>
+            <div class="fill-hint">架空の人物として具体的に設定してください</div>
+            <div class="fill-content">
+              <p>25歳・女性・東京在住。<br>
+                会社員として働いており、平日は忙しい生活を送っている。<br>
+                休日はリラックスできる体験や新しい趣味を探している。<br>
+                香りやコスメに興味があり、自分らしさを表現できるものに魅力を感じる。</p>
+            </div>
+          </div>
+
+        </section>
+
+        <section class="section" id="sec2">
+          <h2 class="section-title"><span class="section-icon">2</span> ライフスタイル</h2>
+
+          <div class="fill-block">
+            <div class="fill-label">平日のタイムスケジュール <span class="required">必須</span></div>
+            <div class="fill-hint">朝起きてから寝るまでの1日の流れ</div>
+            <div class="fill-content">
+              <p>7:00 起床<br>
+                9:00 出勤<br>
+                12:00 昼休み<br>
+                18:00 退勤<br>
+                20:00 自由時間（SNS・動画視聴）<br>
+                23:00 就寝</p>
+            </div>
+          </div>
+          <div class="fill-block">
+            <div class="fill-label">休日の過ごし方 <span class="required">必須</span></div>
+            <div class="fill-hint">休日にどのように過ごしているか</div>
+            <div class="fill-content">
+              <p>カフェ巡りやショッピングを楽しむ。<br>
+                友人と外出したり、SNSで情報収集を行う。<br>
+                新しい体験やリラックスできる時間を大切にしている。</p>
+            </div>
+          </div>
+          <div class="fill-block">
+            <div class="fill-label">趣味・関心事 <span class="required">必須</span></div>
+            <div class="fill-hint">興味のある分野・趣味</div>
+            <div class="fill-content">
+              <p>香水・コスメ・ファッションに興味がある。<br>
+                SNS（Instagram・TikTok）でトレンドをチェックする。<br>
+                体験型サービスやワークショップにも関心がある。</p>
+            </div>
+          </div>
+
+        </section>
+
+        <section class="section" id="sec3">
+          <h2 class="section-title"><span class="section-icon">3</span> デジタル行動</h2>
+
+          <div class="fill-block">
+            <div class="fill-label">使用デバイス・サービス <span class="required">必須</span></div>
+            <div class="fill-hint">日常的に使用するデバイス、SNS、Webサービス</div>
+            <div class="fill-content">
+              <p>スマートフォンを中心に利用。<br>
+                Instagram・TikTok・YouTubeを日常的に使用。<br>
+                Webサイトで情報収集や予約を行う。</p>
+            </div>
+          </div>
+
+        </section>
+
+        <section class="section" id="sec4">
+          <h2 class="section-title"><span class="section-icon">4</span> 課題とニーズ</h2>
+
+          <div class="fill-block">
+            <div class="fill-label">抱えている課題・悩み <span class="required">必須</span></div>
+            <div class="fill-hint">このペルソナが日常で抱えている課題（サービスに関連するもの）</div>
+            <div class="fill-content">
+              <p>自分に合う香りが分からない。<br>
+                体験の内容や流れが事前に分かりにくい。<br>
+                初めてのサービスに不安を感じる。</p>
+            </div>
+          </div>
+          <div class="fill-block">
+            <div class="fill-label">サービスに期待すること <span class="required">必須</span></div>
+            <div class="fill-hint">このペルソナが（サービス名）に期待する価値</div>
+            <div class="fill-content">
+              <p>自分だけの香りを作れる特別な体験。<br>
+                分かりやすい説明と安心できる情報提供。<br>
+                楽しく思い出に残る時間を過ごしたい。</p>
+            </div>
+          </div>
+
+        </section>
+
+        <section class="section" id="sec5">
+          <h2 class="section-title"><span class="section-icon">5</span> カスタマージャーニーマップ</h2>
+
+          <div class="fill-block">
+            <div class="fill-label">カスタマージャーニーマップ <span class="required">必須</span></div>
+            <div class="fill-hint">ペルソナがサービスを認知してから利用・共有するまでの行動を時系列で記載</div>
+
+            <table class="doc-table">
+              <thead>
+                <tr>
+                  <th>段階</th>
+                  <th>行動</th>
+                  <th>接点（タッチポイント）</th>
+                  <th>感情</th>
+                  <th>課題・機会</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="template-row">
+                  <td><strong>認知</strong></td>
+                  <td>SNSやWeb検索でサービスを知る</td>
+                  <td>Instagram・TikTok・Google検索</td>
+                  <td>🤔</td>
+                  <td>サービスの存在は知るが、内容がまだ具体的に分からない</td>
+                </tr>
+                <tr class="template-row">
+                  <td><strong>興味</strong></td>
+                  <td>Webサイトを見て体験内容に興味を持つ</td>
+                  <td>公式サイト・LP・SNS投稿</td>
+                  <td>😊</td>
+                  <td>体験の魅力は伝わるが、料金や流れをもっと分かりやすく示す必要がある</td>
+                </tr>
+                <tr class="template-row">
+                  <td><strong>比較検討</strong></td>
+                  <td>他の香水ブランドや体験型サービスと比較する</td>
+                  <td>口コミサイト・比較サイト・SNSレビュー</td>
+                  <td>😮</td>
+                  <td>他サービスとの違いや強みを明確に伝える必要がある</td>
+                </tr>
+                <tr class="template-row">
+                  <td><strong>行動</strong></td>
+                  <td>予約方法を確認し、参加を決める</td>
+                  <td>予約フォーム・問い合わせページ</td>
+                  <td>😀</td>
+                  <td>予約導線をシンプルにし、安心して申し込める設計が重要である</td>
+                </tr>
+                <tr class="template-row">
+                  <td><strong>共有・継続</strong></td>
+                  <td>体験後にSNSで共有し、再利用を検討する</td>
+                  <td>Instagram・TikTok・口コミ投稿</td>
+                  <td>😍</td>
+                  <td>満足度が高ければ、SNS共有やリピート利用につながる</td>
+                </tr>
+              </tbody>
+            </table>
+
+          </div>
+        </section>
+
+      </div>
+    </main>
+  </div>
+
+  <script src="../js/main.js"></script>
+</body>
+
+</html>
